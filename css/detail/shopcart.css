@@ -1,0 +1,57 @@
+.product-box{background: #fff; overflow: hidden;}
+.product-item{padding:0 10px 0 45px; margin:10px 0;overflow: hidden; position: relative;}
+.product-item.views{padding: 0 10px}
+.product-item .pic{float: left; margin-right: 10px; width: 100px; height: 100px}
+.product-item img{max-height: 100%}
+.product-item .view-msg{overflow: hidden; font-size: 1.4rem}
+.product-item .name{font-size: 1.6rem; overflow: hidden; text-overflow: ellipsis;white-space: nowrap}
+.product-item .tips{color: #666; font-size:1.2rem;}
+.product-item .price-number {color: #666; height:25px; margin-top:5px;}
+.product-item .price-number .price{font-size: 2rem;}
+.product-item .price-number .number{color: #999; font-size: 1.6rem}
+.product-item .select{position: absolute; width: 20px; height: 20px; border:1px solid #ddd; background-color: #fff; top:50%; left:10px; content:""; margin-top:-10px; border-radius:10px;}
+.product-item.on .select{background: url(../../images/icons/cart-selected.png) center center no-repeat; border-color: #0099cc; background-size:19px auto; }
+.product-item .select input{opacity: 0; display: none}
+.number-plugin{display: inline-block; height: 25px; border: 1px solid #ccc; width: 112px; line-height: 25px;  font-size: 0; overflow: hidden; float: right}
+.number-plugin .plus,.number-plugin .minus{font-size: 20px; display: inline-block; text-align: center; vertical-align: top; color: #999; width: 30px; cursor: pointer; height: 25px; background: #f4f4f4}
+.number-plugin .disabled{color: #d3d3d3; cursor: default;}
+.number-plugin .minus{font-size: 30px; line-height: 20px;}
+.number-plugin .input{width: 40px; height: 25px; display: inline-block; width: 50px; text-align: center; font-size: 14px; line-height: 30px; padding: 0 1px; border:1px solid #999; position: relative; top:-1px;}
+
+.select-addr{margin-bottom: 10px}
+.select-modal{background: #fff; padding: 10px 25px 10px 10px; position:relative; display: block; line-height: 25px; font-size: 1.5rem}
+.select-modal:after{content:"";position:absolute;right:15px;top:50%; margin-top:-7px;width:10px;height:10px;border-top:solid 1px #666;border-right:solid 1px #666;-webkit-transform-origin:center 75%;transform-origin:center 75%;-webkit-transform:rotate(45deg);transform:rotate(45deg);}
+.select-modal .text{font-size:1.4rem; line-height: 20px}
+.select-modal .gray{color: #666}
+
+.pay-category{background: #fff; margin:10px 0;}
+.pay-category label{display: block; margin-left:10px; padding:10px 10px 10px 0; line-height: 35px; border-bottom: 1px solid #ddd; font-size: 1.5rem; position: relative;}
+.pay-category label img{vertical-align: top; }
+.pay-category label input{ position: absolute; right: 12px; top: 22px}
+
+
+input.copy{ position: relative;}
+input.copy:before{position: absolute; left:-5px; top:-5px; width: 20px; height:20px; border-radius: 50%; content: " "; border:1px solid #ddd; background: #fff;}
+input.copy:checked:before{background: url(../../images/icons/pay-selected.png) center center no-repeat; background-size: 19px auto; border-color: #0099cc}
+
+.select-invoice input{float: left; margin:8px 8px 0 6px;}
+
+.cart-count{margin:10px 0; background: #fff; overflow: hidden;}
+.cart-count ul{display: -webkit-flex; display: flex; margin:10px; font-size: 1.5rem; line-height: 25px}
+.cart-count ul li{flex-grow:1;}
+.cart-count ul li:last-of-type{text-align: right;}
+
+.foot-bar{position: fixed; left: 0; right: 0; bottom: 0; height: 50px; line-height: 50px; text-align: center; border-top: 1px solid #ddd; background: #fff; font-size: 1.6rem}
+.foot-bar .price-box{overflow: hidden; color: #555; text-align: left; padding:0 10px;}
+.foot-bar .price{font-size:2rem; line-height:1;color: #a53432; font-weight: bold}
+
+.foot-bar .settle{background: #0099cc; float: right; width: 120px; text-align: center; border:0 none; color:#fff; height: 50px}
+
+
+
+.submit-status{background: #fff; overflow: hidden; padding: 20px; text-align: center;}
+.submit-status .msg{font-size: 1.6rem; margin:15px 0;}
+.submit-status .submit-btn a{display: inline-block; border:1px solid #ddd; padding:8px 20px; margin:0 5px; border-radius:3px; font-size: 1.4rem}
+
+.submit-tips{padding: 15px 10px; overflow: hidden; background: #fff; margin:10px 0; font-size: 1.5rem; line-height:23px;text-align: justify;}
+.submit-tips .tel{color: #0099cc}

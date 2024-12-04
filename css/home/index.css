@@ -1,0 +1,65 @@
+.home-header{height:50px; position:fixed; z-index:9;background-color:#fff; left:0; right:0; top:0; padding:5px 10px; line-height:40px;}
+.home-header .left,header .right{height:40px}
+.home-header .left{float:left; margin-right:10px}
+.home-header .right{float:right;margin-left:10px;}
+.home-header .logo{left:10px}
+.home-header .city{float:left;position:relative;padding:0 22px 0 0;overflow:hidden;font-size:15px; margin-right:10px}
+.home-header .city:after{content:"";position:absolute;right:8px;top:13px;width:8px;height:8px;border-right:solid 1px #666;border-bottom:solid 1px #666;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-transform-origin:center 75%;transform-origin:center 75%;-webkit-transition:all 0.5s;transition:all 0.5s;}
+.home-header .header-center{text-align:center; font-size:1.5rem; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; -webkit-box-flex:1;-webkit-flex:1;-moz-box-flex:1;flex:1;}
+.home-header .search-form{background-color:#ededed; border-radius:5px; display: block; line-height:30px; height:30px; margin:5px 0; text-align:center; overflow:hidden; font-size: 1.2rem; padding:0 15px;}
+.home-header .search-text{color:#aaa;}
+.home-header .search-input input{width:100%; border:0; padding:0 15px; background:transparent; line-height:30px}
+
+.category-bar{background: #fff; height: 40px; overflow-y: hidden; overflow-x: scroll;}
+.category-bar ul{height: 40px; width: 200%}
+.category-bar ul li{float: left; padding: 0 15px; height: 40px; line-height: 40px; font-size: 1.45rem}
+
+
+.swiper-container{height:200px;overflow:hidden}
+.swiper-container .swiper-wrapper{}
+.swiper-container .swiper-slide a{display:block;text-align:center;}
+.swiper-container .swiper-slide img{ display:block;height: auto;
+left:50%;position:absolute;top:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);  max-width:100%; min-height:200px}
+.swiper-pagination-bullet{background-color:#fff;opacity:.5;width:20px; height:3px; border-radius: 0}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 4px}
+.swiper-pagination-bullet-active{opacity:1;}
+.swiper-pagination{bottom:5px}
+
+.index-category{padding:1rem 0}
+.index-category{background-color:#fff; border-bottom:1px solid #ddd}
+.index-category ul{display:flex; display:-webkit-flex;}
+.index-category ul>li{flex:1; width:25%; text-align:center; font-size:1.4rem}
+.index-category ul>li>a{display:block}
+.index-category ul>li p{margin-top:5px}
+
+.index-recom{margin:10px 0; background: #fff; padding: 10px; text-align: center;}
+.index-recom .title{font-size: 1.8rem; margin: 10px 0 20px; height:20px; line-height: 20px}
+.index-recom .title img{vertical-align: top}
+.index-recom ul{margin-right: -10px; margin-bottom: -10px}
+.index-recom ul>li{padding-right: 10px; width: 50%; float: left; margin-bottom: 10px; position: relative;}
+.index-recom ul>li img{max-width: 100%;}
+.index-recom li .name{position:absolute; left:10px; top:10px; right:10px; text-align: left; z-index:1; font-size:1.6rem;}
+.index-recom li .view{position:absolute; left:10px; top:40px; border-radius:30px; text-align:center; padding:0 20px;line-height:30px; font-size:1.4rem; color:#fff}
+.index-recom li .v0{background-color:#7cacef}
+.index-recom li .v1{background-color:#c7b38b}
+.index-recom li .v2{background-color:#bf989a}
+.index-recom li .v3{background-color:#71caff}
+
+
+.product-group{background: #fff; margin: 10px 0; overflow: hidden; padding: 20px 0}
+.product-group .title{font-size: 1.8rem; height: 20px; line-height: 20px; text-align: center; margin-bottom: 20px }
+.product-group .title img{vertical-align: top}
+.product-group .group-filter{padding: 0 10px;}
+.product-group .group-filter{margin-right: -10px; margin-bottom: -10px;}
+.product-group .group-filter li{width: 33.333%; float: left; padding-right: 10px; text-align: center; margin-bottom: 10px;}
+.product-group .group-filter a{display: block; height: 30px; line-height: 30px; border-radius:5px; background: #ededed; font-size: 1.3rem}
+
+.group-product{padding: 0 10px; margin-top: 20px}
+.group-product ul{margin-right: -10px; margin-bottom: -10px}
+.group-product ul li{width: 50%; padding-right: 10px; float: left; margin-bottom: 10px}
+.group-product ul li a{display: block; text-align: center;}
+.group-product ul li img{max-width: 100%;}
+.group-product ul li .name,.group-product ul li .tips{text-overflow: ellipsis; white-space: nowrap; overflow: hidden; text-align: center;}
+.group-product ul li .name{height: 30px; line-height: 30px; font-size: 1.6rem}
+.group-product ul li .tips{color: #888; font-size: 1.5rem}
+.group-product ul li .price{color: #b4282d; font-size: 2rem; margin-top: 5px}

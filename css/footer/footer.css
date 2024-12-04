@@ -1,0 +1,13 @@
+.footer-bar{height:50px; background-color:#fbfbfb; border-top:1px solid #e6e6e6; position:fixed; left:0; right:0; bottom:0; z-index:99}
+.footer-bar ul{display:flex; display:-webkit-flex; }
+.footer-bar ul>li{flex-grow:1; text-align:center; padding:5px; width:25%;position: relative;}
+.footer-bar ul>li .tips{font-size:1.3rem; color:#666; line-height:1.5}
+.footer-bar ul>li a{display:block}
+.footer-bar ul>li .bar-img{width:40px; height: 22px; display:inline-block;  overflow: hidden;}
+.footer-bar ul>li .bar-img img{max-height:100%}
+.footer-bar ul>li .service{width:55px; height: 55px; margin-top:-25px;}
+.footer-bar ul>li .service img{max-width:55px; max-height:100%;}
+.footer-bar ul>li.on .tips{color:#0f9fcf}
+.footer-bar ul>li .service + .tips{margin-top:-8px}
+.footer-bar ul>li .cart-number{border:1px solid #00b5f0; color: #00b5f0; height: 18px; line-height: 18px; position: absolute; left: 50%; top: 2px; min-width: 18px; padding:0 3px; background: #fff; border-radius: 10px; font-size: 12px; margin-left:5px}
+.footer-bar ul>li .cart-number:empty{display: none}

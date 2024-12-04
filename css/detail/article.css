@@ -1,0 +1,53 @@
+.category-scroll{background: #fff; height: 40px; overflow-y: hidden; overflow-x: scroll;}
+.category-scroll.bordered{border-bottom: 1px solid #f5f5f5}
+.category-scroll ul{height: 40px; width: 200%}
+.category-scroll ul li{float: left; padding: 0 8px; height: 40px; line-height: 40px; font-size: 1.45rem}
+.category-scroll ul li a{display: block; position: relative; padding: 0 7px}
+.category-scroll ul li a:after{content:' '; position: absolute; left: 0; bottom: 0; right:0;border-bottom: 3px solid #1db6ed; display: none}
+.category-scroll ul li.on a:after{display: block;}
+.category-scroll ul li.on a{color: #446fa7}
+
+.article-list{background: #fff; padding: 10px; margin: 10px 0}
+.article-list .title{border-bottom: 1px dashed #999; color: #888; font-size: 1.4rem; padding: 10px 0}
+.article-list .title a{color: #888}
+.article-item{border-bottom:  1px dashed #999; padding: 10px 0; display: block;}
+.article-item:after{content: ""; display: block;  clear: both;}
+.article-item .pic{width: 80px; height: 80px; border-radius: 5px; overflow:hidden; margin-right: 10px; float: left;}
+.article-item .msg{overflow: hidden;}
+.article-item .name{margin: 5px 0; max-height: 40px; overflow:hidden; font-size: 1.5rem}
+.article-item .tips{line-height: 15px; color: #666; font-size: 1.2rem}
+.page{text-align: center; margin:10px 0 0;}
+.page a{display: inline-block; border-radius: 5px; border:1px solid #ddd; color: #555; font-size:1.5rem; padding: 5px 12px; margin:0 5px;}
+
+
+.article-detail{background: #fff; padding: 10px}
+.article-detail .crumbs{font-size: 1.4rem; color: #888; margin-bottom: 15px}
+.article-detail .crumbs a{color: #888}
+.article-detail .title{font-size: 1.6rem; margin:10px 0;}
+.article-detail .other{font-size: 1.4rem; color:#666;}
+.article-content{text-align: justify; border-top: 1px solid #ddd; padding: 10px 0; font-size:1.4rem; margin-top:10px;}
+.article-content img{width: 100%; display: block; margin-bottom: 10px}
+.product-img img{max-width: 100%; }
+
+
+.article-related{background: #fff; margin:10px 0; padding:0 10px 10px 10px; overflow:hidden;}
+.title-bar{line-height: 30px; height: 30px; margin:20px auto; width: 50%; position: relative; text-align: center; font-size: 1.4rem}
+.title-bar:before{position: absolute; left: 0; top: 50%; right: 0; border-bottom: 1px solid #ccc; content: " "}
+.title-bar span{display: inline-block; position: relative; padding:0 15px; background: #fff; }
+.related-product{margin-top: 20px}
+.related-product ul{margin-right: -10px;}
+.related-product ul li{width: 50%; padding-right: 10px; float: left; margin-bottom: 10px}
+.related-product ul li a{display: block; text-align: center;}
+.related-product ul li img{max-width: 100%;}
+.related-product ul li .name,.related-product ul li .tips{text-overflow: ellipsis; white-space: nowrap; overflow: hidden; text-align: center;}
+.related-product ul li .name{height: 30px; line-height: 30px; font-size: 1.6rem}
+.related-product ul li .tips{color: #888; font-size: 1.5rem}
+.related-product ul li .price{color: #b4282d; font-size: 2rem; margin-top: 5px}
+
+
+
+.faq{background: #fff; overflow: hidden; padding: 0 15px}
+.faq li{margin:15px 0; font-size: 1.5rem}
+.faq .q{position: relative; height: 25px; line-height: 25px; padding-left: 10px}
+.faq .q:before{position: absolute; left: 0; top: 9px; width: 6px; height: 6px; background: #787878; content: ""; border-radius: 3px;}
+.faq .a{padding-left: 10px; color: #787878}

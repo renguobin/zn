@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>中诺新材</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<link rel="stylesheet" type="text/css" href="../css/global.css" />
+	<link rel="stylesheet" type="text/css" href="../css/account/center.css" />
+	<link rel="stylesheet" type="text/css" href="../css/footer/footer.css" />
+	<script type="text/javascript" src="../scripts/require.js" data-main="../scripts/main.js"></script>
+	<script type="text/javascript">
+		var id = 1;
+		require(['app/account/address'])
+	</script>
+</head>
+<body class="fixed-header fixed-footer">
+	<header>
+		<div class="left"><a class="back" href="javascript:history.back()"></a></div>
+		<div class="center">新建地址</div>
+		<div class="right">
+			<a href="" class="icon icon-search"></a>
+			<a href="" class="icon icon-cart"><i class="ui-cartNumber"></i></a>
+		</div>
+	</header>
+	<form action="" method="post">
+		<div class="form-table">
+			<div class="form-field">
+				<div class="label">收件人</div>
+				<div class="field"><input type="text" autocomplete="off" class="input" name="SJR" data-required="true" data-descriptions="SJR" value="收件人"></div>
+			</div>
+			<div class="form-field">
+				<div class="label">手机号</div>
+				<div class="field"><input type="number" autocomplete="off" class="input" name="mobile" data-validate="phone" value="18710018497"></div>
+			</div>
+			<div class="form-field">
+				<div class="label">收件地址</div>
+				<div class="field">
+					<input type="text" autocomplete="off" class="input" name="sjAddress" data-required="true" data-descriptions="sjAddress" value="收件地址">
+				</div>
+			</div>
+
+			<div class="form-field">
+				<div class="label">默认地址</div>
+				<div class="field">
+					<label class="label-input"><input type="radio" class="copy" name="isDetail"> 是</label>
+					<label class="label-input"><input type="radio" class="copy" name="isDetail" checked> 否</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-btnBox">
+			<input type="submit" class="block-btn" value="保存">
+		</div>
+		<div class="form-btnBox">
+			<a href="javascript:;" class="block-btn blue ui-deleteAddress">删除地址</a>
+		</div>
+	</form>
+	<div class="footer-bar">
+		<ul>
+			<li class="on">
+				<a href="">
+					<p class="bar-img"><img src="../images/icons/home-on.png" ></p>
+					<p class="tips">首页</p>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<p class="bar-img"><img src="../images/icons/category.png" ></p>
+					<p class="tips">分类</p>
+				</a>
+			</li>
+			<li>
+				<a href="tel:400-690-6700">
+					<p class="bar-img service"><img src="../images/icons/service.png" ></p>
+					<p class="tips">客服</p>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<p class="bar-img"><img src="../images/icons/shopcart.png" > <i class="cart-number ui-cartNumber"></i></p>
+					<p class="tips">购物车</p>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<p class="bar-img"><img src="../images/icons/my.png" ></p>
+					<p class="tips">我的</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

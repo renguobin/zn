@@ -1,0 +1,105 @@
+.account-msg{height: 100px; padding: 20px; background: url(../../images/icons/bg.jpg) center center no-repeat;}
+.account-msg .pic{float: left; width: 60px; height: 60px; overflow: hidden; margin-right: 15px}
+.account-msg .msg{overflow: hidden; color: #fff}
+.account-msg .name{font-size:2rem; margin-top: 5px}
+.account-msg .mobile{font-size: 1.6rem; margin-top: 5px}
+
+.my-order{background: #fff; margin:10px 0;}
+.my-order .order-head{border-bottom: 1px solid #ddd; padding: 10px; font-size: 1.6rem; line-height: 25px}
+.my-order .order-head .more{font-size: 1.4rem; float: right;}
+.my-order .order-category{padding: 20px 10px;}
+.my-order .order-category li{float: left; width: 33.333%; text-align: center; font-size: 1.5rem}
+.my-order .order-category li p{margin-top:5px;}
+
+.my-in-list{margin:10px 0;position:relative; background-color:#fff}
+.my-in-list li{border-bottom:1px solid #e4e4e4; font-size:1.4rem; padding:10px 20px 10px 0; position:relative; font-size:1.6rem}
+.my-in-list li:after{content:""; clear:both; visibility:visible; display:table;}
+.my-in-list li:last-of-type{border:0 none;}
+.my-in-list li.lastBorder{border-bottom:1px solid #e4e4e4;}
+.my-in-list li a{display:block}
+.my-in-list li .icon{width:30px; height:30px; line-height:25px; margin-right:10px; text-align:center; float: left}
+.my-in-list li .icon img{vertical-align:middle}
+.my-in-list li .txt{line-height:30px; float: left;}
+.my-in-list li .tips{line-height:30px; padding:0 5px 0 5px; text-align:right;color:#919191; font-size: 1.3rem}
+.my-in-list li .black{color:#333}
+.my-in-list li .right{height:30px; line-height:30px; position:absolute; right:10px; top:50%; margin-top:-15px;}
+
+.my-in-list li .auto-width{overflow: hidden;}
+.my-in-list li:after{content:"";position:absolute;right:15px;top:50%;width:9px;height:9px;border-top:solid 1px #555;border-right:solid 1px #555;-webkit-transform-origin:center 75%;transform-origin:center 75%;-webkit-transform:rotate(45deg);transform:rotate(45deg); margin-top:-6px;}
+.my-in-list li.no-arrow:after{display: none}
+.block-btn{height: 50px; line-height: 50px; font-size: 1.6rem; margin:10px 0; background: #fff; display: block; text-align: center; border:0 none; color: #333}
+.block-btn.blue{color: #0199cc}
+
+
+.order-filter{height:50px; line-height:50px; text-align:center; background-color:#fff}
+.order-filter a{display:inline-block; margin:0 5px; font-size:1.5rem; position:relative; padding: 0 15px}
+.order-filter a:after{content:""; border-bottom:2px solid transparent; position:absolute; left:0; right:0; bottom:0}
+.order-filter a.on{color:#3fb2d9}
+.order-filter a.on:after{border-color:#0099cc}
+
+.order-list li{margin-top:10px; background-color:#fff; overflow:hidden}
+.order-list li .order-head{border-bottom:1px solid #ededed; padding:10px; line-height:2rem; font-size:1.5rem; color:#555;}
+.order-list li .order-head .txt-right{float: right;}
+.order-list li .order-head .action{color:#f54949;}
+.order-list li .order-body{margin:10px; font-size:1.5rem}
+.order-list li .order-body:after{content:" "; display:table; clear:both}
+.order-list li .order-body .pic{width:80px; height:80px; float:left; margin-right:10px; overflow:hidden; text-align:Center}
+.order-list li .order-body .product-info{overflow:hidden; font-size:1.5rem;}
+.order-list li .order-body .title-box{height:20px; line-height:20px; overflow:hidden; }
+.order-list li .order-body .title{overflow: hidden; text-overflow: ellipsis; white-space: nowrap; height: 20px;}
+.order-list li .order-body .price{float: right; margin-left: 5px}
+.order-list li .order-body .number{color:#999; font-size:1.4rem}
+.order-list li .order-body .n{color: #999}
+.order-list li .order-body .tips{font-size: 1.3rem; color: #666; line-height: 20px;}
+.order-list li .order-body .status{float: right; color: #0099cc; line-height: 20px;}
+.order-list li .order-foot{text-align:right; border-top:1px solid #ededed; padding:10px;line-height:2.5rem;}
+.order-list li .order-foot .btn{border:1px solid #ccc; line-height:2.5rem; font-size:1.4rem; border-radius:3px; color:#555; display:inline-block; padding:0 10px; min-width:60px; margin-left: 5px}
+.order-list li .order-foot .blue{border-color: #0099cc; background: #0099cc; color: #fff}
+.order-list li .order-foot .pay-number{float: left; font-size: 1.5rem}
+
+
+.order-address{background: #fff; padding: 10px; font-size: 1.5rem}
+.order-address .text{ line-height: 20px; margin:5px 0;}
+.order-address .gray{color: #666}
+
+.order-msg{margin:10px 0; padding:5px; background: #fff; overflow: hidden;}
+.order-msg ul{display: -webkit-flex; display: flex; margin:10px; font-size: 1.5rem; line-height: 20px}
+.order-msg ul li{ width: 80px; color: #888}
+.order-msg ul li:last-of-type{ flex-grow:3; color: #555}
+
+
+.log-timeline{background-color:#fff; padding:0 10px; overflow:hidden; margin: 10px 0}
+.log-timeline ul>li{margin:15px 0; font-size:1.5rem; position:relative; padding-left:20px}
+.log-timeline ul>li:before{position:absolute; left:0; top:4px; width:8px; height:8px; border:2px solid transparent; content:" "; border-radius:10px; text-align:center; line-height:9px; font-size:8px; color:#dedede;z-index:2; background: #eee}
+.log-timeline ul>li:after{content:" "; position:absolute; left:6px; top:5px; bottom:-20px; z-index:1; width:1px; border-left:1px dashed #dedede}
+.log-timeline ul>li:first-of-type{color: #a63533}
+.log-timeline ul>li:first-of-type:before{border-color:#a63533; color:#f54949;  background-color:#a63533;}
+.log-timeline ul>li:last-of-type:after{border:0 none;}
+.log-timeline ul>li .time{color:#999; font-size:1.3rem; margin-bottom:5px; padding-top: 5px}
+
+
+
+.board-list{margin-bottom:10px;position:relative; line-height:25px;background-color:#fff; padding:10px 20px 10px 10px; font-size: 1.4rem}
+.board-list .detail{line-height: 18px; border:1px solid #0199cc; border-radius: 3px; display: inline-block; vertical-align: top; padding: 0 5px; font-size: 1.3rem; color: #0199cc; margin-top: 3px}
+.board-list .gary{color: #666}
+.board-list:after{content:"";position:absolute;right:15px;top:50%;width:9px;height:9px;border-top:solid 1px #555;border-right:solid 1px #555;-webkit-transform-origin:center 75%;transform-origin:center 75%;-webkit-transform:rotate(45deg);transform:rotate(45deg); margin-top:-6px;}
+
+.form-table{background: #fff; padding: 0 0 0 10px; overflow: hidden;}
+.form-field{padding:10px 0; font-size: 1.5rem; line-height: 30px;border-bottom: 1px solid #ddd}
+.form-field .label{float: left; color: #888; margin-right: 10px;}
+.form-field:after{content: ""; display: block; clear: both;}
+.form-field .field{overflow: hidden; position: relative;}
+.form-field .input{padding:0 10px; line-height: 30px; border:0 none;width: 100%}
+.form-btnBox{margin:10px 0;}
+.form-btnBox .block-btn{width: 100%}
+
+input.copy{position: relative; margin:5px; padding: 0;}
+input.copy:before,input.copy:after{width: 18px; height: 18px; position: absolute; left: -1px; top: -1px; border-radius: 50px; border:1px solid #ccc; content:" "; background: #fff}
+input.copy:after{width: 12px; height: 12px; background: #fff; border: 0 none; content: " "; left:2px; top: 2px;}
+input.copy:checked:before{border-color: #0099cc}
+input.copy:checked:after{background: #0099cc; }
+.label-input{height: 20px; line-height: 20px; display: inline-block; margin-right: 10px}
+
+.label-select{line-height: 28px; display: inline-block; border:1px solid #ccc; position: relative; overflow: hidden; padding: 0 15px; vertical-align: top; border-radius: 3px; margin-right: 5px;}
+.label-select.on{background: #0099cc; color: #fff; border-color: #0099cc}
+.label-select input{position: absolute;left: 0; top: 0; opacity: 0; z-index: -1}

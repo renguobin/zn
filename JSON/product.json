@@ -1,0 +1,15 @@
+{
+	"status" : true,
+	"msg" : "OK",
+	"page" : 3,
+	"data" : [
+		{"id" : "1","name" : "高纯度靶材 99.99%","tips" : "(Gd/RE)","price" : "1300","pic" : "images/product.jpg"},
+		{"id" : "1","name" : "高纯度靶材 99.99%","tips" : "(Gd/RE)","price" : "1300","pic" : "images/product.jpg"},
+		{"id" : "1","name" : "高纯度靶材 99.99%","tips" : "(Gd/RE)","price" : "1300","pic" : "images/product.jpg"},
+		{"id" : "1","name" : "高纯度靶材 99.99%","tips" : "(Gd/RE)","price" : "1300","pic" : "images/product.jpg"},
+		{"id" : "1","name" : "高纯度靶材 99.99%","tips" : "(Gd/RE)","price" : "1300","pic" : "images/product.jpg"},
+		{"id" : "1","name" : "高纯度靶材 99.99%","tips" : "(Gd/RE)","price" : "1300","pic" : "images/product.jpg"},
+		{"id" : "1","name" : "高纯度靶材 99.99%","tips" : "(Gd/RE)","price" : "1300","pic" : "images/product.jpg"},
+		{"id" : "1","name" : "高纯度靶材 99.99%","tips" : "(Gd/RE)","price" : "1300","pic" : "images/product.jpg"}
+	]
+}

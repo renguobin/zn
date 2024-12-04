@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>中诺新材</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<link rel="stylesheet" type="text/css" href="../css/global.css" />
+	<link rel="stylesheet" type="text/css" href="../css/account/register.css" />
+	<script type="text/javascript" src="../scripts/require.js" data-main="../scripts/main.js"></script>
+	<script type="text/javascript">
+		require(['app/account/register'])
+	</script>
+</head>
+<body class="fixed-header">
+	<header>
+		<div class="left"><a class="back" href="javascript:history.back()"></a></div>
+		<div class="center">中诺新材</div>
+		<div class="right">
+			<a href="" class="icon icon-search"></a>
+			<a href="" class="icon icon-cart"><i class="ui-cartNumber"></i></a>
+		</div>
+	</header>
+	<div class="register-warp">
+		<form action="" class="ui-registerForm" method="post">
+			<div class="register-table">
+				<div class="register-field">
+					<div class="field"><input type="text" autocomplete="off" class="input ui-mobile" name="mobile" placeholder="请输入手机号" data-validate="phone"></div>
+				</div>
+				<div class="register-field">
+					<div class="getCode ui-getCode">获取手机验证码</div>
+					<div class="field">
+						<input type="number" name="code" autocomplete="off" class="input" placeholder="验证码" data-required="true" data-descriptions="code" data-conditional="code">
+					</div>
+				</div>
+				<div class="register-field">
+					<div class="field"><input type="password" name="pass" autocomplete="off"  class="input ui-pass" placeholder="输入密码" data-required="true" data-descriptions="pass"></div>
+				</div>
+				<div class="register-field">
+					<div class="field"><input type="password" name="pass2"  autocomplete="off" class="input ui-pass2" placeholder="再次输入密码" data-required="true" data-descriptions="pass2" data-conditional="confirmpwd"></div>
+				</div>
+			</div>
+			<div class="register-btnBox">
+				<input type="submit" class="register-btn" value="下一步">
+			</div>
+			<div class="register-help">已有帐号，去<a href="" class="link">登录</a></div>
+		</form>
+	</div>
+</body>
+</html>
